@@ -1,1 +1,82 @@
 /*Ini css*/
+.section-content {
+    background-color: blue;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-content > h4 {
+    margin: 0;
+  }
+  
+  #jajargenjang {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: white;
+    border: 0;
+    color: blue;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .section-content > h1 {
+    font-size: 25px;
+  }
+  
+  .image {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .rumus{
+    text-align: center;
+  }
+  
+  input{
+    width: 100%;
+  }
+  
+  .hitung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .tengah{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .tengah:hover{
+    background-color: green;
+  }
+  
+  .reset{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .kanan{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+  
+  }
+  
+  .kanan:hover{
+    background-color: red;
+  }
