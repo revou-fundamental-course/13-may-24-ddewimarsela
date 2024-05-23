@@ -1,148 +1,146 @@
+<!-- ini html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome to Katik</h1>
+      <h1>Welcome to Katik</h1>
+      <section>
+        <p>
+          Hai Sobat, Selamat datang di Katik <br />
+          Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas
+          dan keliling bangun datar
+        </p>
+      </section>
+
+      <section>
+        <div class="section-content">
+          <h4>Segitiga</h4>
+        </div>
+
+        <button type="button" id="jajargenjang">Jajar Genjang</button>
+        
+        <section>
+          <section>
+            <div class="section-content">
+              <h1>Luas Segitiga</h1>
+            </div>
+          </section>
+        </section>
+      </header>
+  
+      <section>
+        <div class="image">
+          <img src="/aset/segitiga.jpg">
+        </div>
+  
         <section>
           <p>
-            Hai Sobat, Selamat datang di Katik <br />
-            Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas
-            dan keliling bangun datar
+            Rumus Luas Segitiga yaitu : <br> 
+              <p class="rumus"><b>L = 1/2 x a x t </b></p>
+            Dimana : <br>
+            L = Luas <br>
+            a = Alas <br>
+            t = Tinggi
           </p>
-        </section>
-  
-        <section>
-          <div class="section-content">
-            <h4>Segitiga</h4>
-          </div>
-  
-          <button type="button" id="jajargenjang">Jajar Genjang</button>
-          
-          <section>
-            <section>
-              <div class="section-content">
-                <h1>Luas Segitiga</h1>
-              </div>
-            </section>
           </section>
-        </header>
-    
-        <section>
-          <div class="image">
-            <img src="/aset/segitiga.jpg">
-          </div>
-    
+          <hr> 
           <section>
-            <p>
-              Rumus Luas Segitiga yaitu : <br> 
-                <p class="rumus"><b>L = 1/2 x a x t </b></p>
-              Dimana : <br>
-              L = Luas <br>
-              a = Alas <br>
-              t = Tinggi
-            </p>
-            </section>
-            <hr> 
+            <header>
+              <h2>
+                Hitung Luas Segitiga
+              </h2>
+            </header>
+
+            <form>
+              <section>
+                <div>
+                  <label>Alas :</label><input id="alas" type="number"/>
+                </div>
+                
+                <div>
+                  <label>Tinggi :</label><input id="tinggi" type="number"/>
+                </div>
+              </section>
+
+              <p id="result"></p>
+              <p id="proses"></p>
+
+              <div class="hitung">
+                <button class="tengah" type="button" id="hitung">Hitung</button>
+              </div>
+              
+              <div class="reset">
+                <button class="kanan" type="button" id="reset">Reset</button>
+              </div>
+              
+            </form>
+          </section>
+
+          <section>
+            <header>
+              <div class="section-content">
+                <h1>Keliling Segitiga</h1>
+              </div>
+            </header>
+          </section>
+          <section>
+            <div class="image">
+              <img src="/aset/segitiga.jpg">
+            </div>
+      
             <section>
-              <header>
-                <h2>
-                  Hitung Luas Segitiga
-                </h2>
-              </header>
-  
-              <form>
-                <section>
-                  <div>
-                    <label>Alas :</label><input id="alas" type="number"/>
+              <p>
+                Rumus Keliling Segitiga yaitu : <br> 
+                  <p class="rumus"><b>K = S1 + S2 + S3 </b></p>
+                Dimana : <br>
+                K = Keliling <br>
+                S1 = Sisi a <br>
+                S2 = Sisi b <br>
+                S3 = Sisi c
+              </p>
+              </section>
+              <hr> 
+              <section>
+                <header>
+                  <h2>Hitung Keliling Segitiga</h2>
+                </header>
+              
+                <form>
+                  <section>
+                    <div>
+                      <label>Sisi A :</label><input id="sisiA" type="number"/>
+                    </div>
+                    
+                    <div>
+                      <label>Sisi B :</label><input id="sisiB" type="number"/>
+                    </div>
+              
+                    <div>
+                      <label>Sisi C :</label><input id="sisiC" type="number"/>
+                    </div>
+                  </section>
+              
+                  <p id="kelilingResult"></p>
+                  <p id="kelilingProses"></p>
+              
+                  <div class="hitung">
+                    <button class="tengah" type="button" id="hitungKeliling">Hitung</button>
                   </div>
                   
-                  <div>
-                    <label>Tinggi :</label><input id="tinggi" type="number"/>
+                  <div class="reset">
+                    <button class="kanan" type="button" id="resetKeliling">Reset</button>
                   </div>
-                </section>
-  
-                <p id="result"></p>
-                <p id="proses"></p>
-  
-                <div class="hitung">
-                  <button class="tengah" type="button" id="hitung">Hitung</button>
-                </div>
-                
-                <div class="reset">
-                  <button class="kanan" type="button" id="reset">Reset</button>
-                </div>
-                
-              </form>
-            </section>
-  
-            <section>
-              <header>
-                <div class="section-content">
-                  <h1>Keliling Segitiga</h1>
-                </div>
-              </header>
-            </section>
-            <section>
-              <div class="image">
-                <img src="/aset/segitiga.jpg">
-              </div>
-        
-              <section>
-                <p>
-                  Rumus Keliling Segitiga yaitu : <br> 
-                    <p class="rumus"><b>K = S1 + S2 + S3 </b></p>
-                  Dimana : <br>
-                  K = Keliling <br>
-                  S1 = Sisi a <br>
-                  S2 = Sisi b <br>
-                  S3 = Sisi c
-                </p>
-                </section>
-                <hr> 
-                <section>
-                  <header>
-                    <h2>
-                      Hitung Keliling Segitiga
-                    </h2>
-                  </header>
-      
-                  <form>
-                    <section>
-                      <div>
-                        <label>Sisi A :</label><input/>
-                      </div>
-                      
-                      <div>
-                        <label>Sisi B :</label><input/>
-                      </div>
-  
-                      <div>
-                        <label>Sisi C :</label><input/>
-                      </div>
-                    </section>
-      
-                    <p>Diketahui : </p>
-      
-                    <div class="hitung">
-                      <button class="tengah">Hitung</button>
-                    </div>
-                    
-                    <div class="reset">
-                      <button class="kanan">Reset</button>
-                    </div>
-                    
-                  </form>
-                </section>
-  
-          </section>
-      </section> 
-      
-      <script src=".js/script.js"></script>
-    
-</body>
+                  
+                </form>
+              </section>
+              
+    </section> 
+    <script src="./js/script.js"></script>
+  </body>
 </html>
