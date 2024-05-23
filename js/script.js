@@ -1,5 +1,6 @@
+// ini js
 document.addEventListener("DOMContentLoaded", function() {
-    // Menghitung Luas Segitiga
+
     const hitungLuasButton = document.getElementById("hitung");
     const resetLuasButton = document.getElementById("reset");
   
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("proses").textContent = '';
     });
   
-    // Menghitung Keliling Segitiga
+   
     const hitungKelilingButton = document.querySelector("#hitungKeliling");
     const resetKelilingButton = document.querySelector("#resetKeliling");
   
